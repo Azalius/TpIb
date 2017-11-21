@@ -146,3 +146,4 @@
 2017-11-21 16:53:19,127 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-21 16:53:19,128 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azalius\Documents\TpIb\KataParrot\src\main\resources
 2017-11-21 16:53:19,130 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-21 16:53:19,132 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\azalius\Documents\TpIb\KataParrot\src\test\resources
