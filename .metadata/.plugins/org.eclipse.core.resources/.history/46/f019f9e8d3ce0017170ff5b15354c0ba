@@ -1,0 +1,12 @@
+package unilim.fr.KataParrot;
+
+public class EuropeanParrot {
+	private static final double BASESPEED = 12.0;
+	public EuropeanParrot() {
+		
+	}
+
+	public double getSpeed() {
+		return BASESPEED;
+	}
+}

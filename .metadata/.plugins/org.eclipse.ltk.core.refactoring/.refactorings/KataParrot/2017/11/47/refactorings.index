@@ -1,0 +1,9 @@
+1511276765291	Delete element
+1511276918133	Delete element
+1511277335162	Extract constant 'LOAD_FACTOR'
+1511277364798	Extract constant 'BASESPEED'
+1511277794540	Extract method 'ralentissementACauseNoixDeCoco'
+1511277878967	Extract method 'vitesseCalcule'
+1511277931681	Extract method 'vitesseOuZeroSiVitesseNegative'
+1511278177840	Extract constant 'MAXSPEED'
+1511278280546	Extract method 'vitesseCalcule'
