@@ -3,10 +3,10 @@ package unilim.fr.gildedrose;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Inn {
+public class LegacyInn {
   private List<Item> items;
 
-  public Inn() {
+  public LegacyInn() {
     items = new ArrayList<Item>();
     items.add(new Item("+5 Dexterity Vest", 10, 20));
     items.add(new Item("Aged Brie", 2, 0));
@@ -25,7 +25,7 @@ public class Inn {
       if (!items.get(i).getName().equals("Aged Brie") && !items.get(i).getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
         if (items.get(i).getQuality() > 0) {
           if (!items.get(i).getName().equals("Sulfuras, Hand of Ragnaros")) {
-            items.get(i).setQuality(items.get(i).getQuality() - 1); 
+            items.get(i).setQuality(items.get(i).getQuality() - 1);
           }
         }
       } else {
