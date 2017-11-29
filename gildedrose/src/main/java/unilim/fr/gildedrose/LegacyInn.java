@@ -19,7 +19,7 @@ public class LegacyInn {
   public List<Item> getItems() {
     return items;
   }
-
+ 
   public void updateQuality() {
     for (int i = 0; i < items.size(); i++) {
       if (!items.get(i).getName().equals("Aged Brie") && !items.get(i).getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
