@@ -4,11 +4,14 @@ import java.util.Random;
 
 public class GameRunner {
 
-	private static boolean notAWinner;
-
 	public static void main(String[] args) {
 
-		Random rand = new Random();
+		play(new Random());
+
+	}
+
+	public static void play(Random rand) {
+		boolean notAWinner;
 
 		Game aGame = new Game();
 
@@ -27,6 +30,5 @@ public class GameRunner {
 			}
 
 		} while (notAWinner);
-
 	}
 }
