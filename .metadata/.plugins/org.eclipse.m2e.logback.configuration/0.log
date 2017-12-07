@@ -2817,3 +2817,67 @@ org.eclipse.core.runtime.CoreException: Launch configuration trivia references c
 2017-12-07 10:53:08,312 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
 2017-12-07 10:53:08,313 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-07 10:53:08,313 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 10:54:01,922 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 10:54:01,923 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 10:54:01,933 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 10:54:01,933 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 10:56:34,846 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 10:56:34,846 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 10:56:34,856 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 10:56:34,857 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:00:27,898 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:00:27,905 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:00:27,916 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:00:27,916 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:01:25,912 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:01:25,913 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:01:25,913 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:01:25,913 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:05:04,757 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:05:04,764 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:05:04,770 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:05:04,770 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:05:42,452 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:05:42,453 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:05:42,455 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:05:42,455 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:12,356 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:12,364 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:12,370 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:12,370 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:18,865 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:18,865 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:18,866 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:18,866 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:23,117 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:23,124 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:23,129 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:23,129 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:26,993 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:26,993 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:26,994 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:26,994 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:30,814 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:30,820 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:30,825 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:30,826 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:34,770 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:34,770 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:34,771 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:34,771 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:39,313 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:39,317 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:39,324 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:39,324 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:43,532 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:43,532 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:43,533 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:43,533 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:48,064 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:48,068 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:48,074 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:48,074 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-07 11:06:54,439 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:54,439 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
+2017-12-07 11:06:54,440 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-07 11:06:54,440 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources

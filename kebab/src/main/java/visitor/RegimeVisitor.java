@@ -14,5 +14,5 @@ public interface RegimeVisitor {
 	boolean visit(Sauce ingredient);
 	boolean visit(Pain ingredient);
 	boolean visit(Assiette ingredient);
-	
+	boolean visit(Boeuf ingredient);
 }

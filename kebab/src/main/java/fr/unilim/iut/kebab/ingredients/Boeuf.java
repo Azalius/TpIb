@@ -1,6 +1,7 @@
 package fr.unilim.iut.kebab.ingredients;
 
 import fr.unilim.iut.kebab.Kebab;
+import visitor.RegimeVisitor;
 
 public class Boeuf extends Ingredient {
 
@@ -18,4 +19,9 @@ public class Boeuf extends Ingredient {
 	public boolean isPescetarien() {
 		return false;
 	}
+	@Override
+	boolean accept(RegimeVisitor visitor) {
+		return visitor.visit(this);
+	}
+
 }

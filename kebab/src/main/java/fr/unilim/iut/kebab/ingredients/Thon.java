@@ -1,6 +1,7 @@
 package fr.unilim.iut.kebab.ingredients;
 
 import fr.unilim.iut.kebab.Kebab;
+import visitor.RegimeVisitor;
 
 public class Thon extends Ingredient {
 
@@ -18,5 +19,10 @@ public class Thon extends Ingredient {
 	public boolean isPescetarien() {
 		return super.isPescetarien();
 	}
+	@Override
+	boolean accept(RegimeVisitor visitor) {
+		return visitor.visit(this);
+	}
+
 
 }

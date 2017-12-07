@@ -2,12 +2,15 @@ package fr.unilim.iut.kebab.ingredients;
 
 import java.util.List;
 import fr.unilim.iut.kebab.Kebab;
+import visitor.RegimeVisitor;
 
 public abstract class Ingredient implements Kebab {
 
 	protected String nom;
 	protected Kebab kebab;
-
+	
+	abstract boolean accept(RegimeVisitor visitor);
+	
 	public Ingredient(String nom, Kebab kebab) {
 		this.nom = nom;
 		this.kebab = kebab;
