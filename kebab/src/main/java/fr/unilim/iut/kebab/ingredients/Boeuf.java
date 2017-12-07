@@ -20,6 +20,7 @@ public class Boeuf extends Ingredient {
 		return false;
 	}
 	@Override
+	public
 	boolean accept(RegimeVisitor visitor) {
 		return visitor.visit(this);
 	}

@@ -14,12 +14,10 @@ public class Fromage extends Ingredient {
 		return super.isVegetarien();
 	}
 
-	@Override
-	public boolean isPescetarien() {
-		return super.isPescetarien();
-	}
+
 
 	@Override
+	public
 	boolean accept(RegimeVisitor visitor) {
 		return visitor.visit(this);
 	}

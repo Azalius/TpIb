@@ -21,6 +21,7 @@ public class Agneau extends Ingredient {
     }
 
 	@Override
+	public
 	boolean accept(RegimeVisitor visitor) {
 		return visitor.visit(this);
 	}

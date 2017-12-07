@@ -15,11 +15,9 @@ public class Thon extends Ingredient {
 		return false;
 	}
 
+	
 	@Override
-	public boolean isPescetarien() {
-		return super.isPescetarien();
-	}
-	@Override
+	public
 	boolean accept(RegimeVisitor visitor) {
 		return visitor.visit(this);
 	}

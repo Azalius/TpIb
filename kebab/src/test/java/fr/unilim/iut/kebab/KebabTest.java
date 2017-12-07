@@ -2,6 +2,7 @@ package fr.unilim.iut.kebab;
 
 
 import fr.unilim.iut.kebab.ingredients.*;
+import visitor.VisiteurRegimePescetarien;
 
 import org.junit.Before;
 import org.junit.Test;

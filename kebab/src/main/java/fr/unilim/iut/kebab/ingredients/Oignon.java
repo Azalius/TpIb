@@ -14,12 +14,9 @@ public class Oignon extends Ingredient {
 		return super.isVegetarien();
 	}
 
+	
 	@Override
-	public boolean isPescetarien() {
-		return super.isPescetarien();
-	}
-	@Override
-	boolean accept(RegimeVisitor visitor) {
+	public boolean accept(RegimeVisitor visitor) {
 		return visitor.visit(this);
 	}
 
