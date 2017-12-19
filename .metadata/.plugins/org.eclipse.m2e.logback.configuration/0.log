@@ -3017,3 +3017,178 @@ org.eclipse.core.runtime.CoreException: Launch configuration trivia references c
 2017-12-07 11:37:20,785 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\main\resources
 2017-12-07 11:37:20,785 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-07 11:37:20,785 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\kebab\src\test\resources
+2017-12-11 10:59:41,017 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-12-11 11:04:32,514 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-11 11:05:11,167 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-11 11:06:22,515 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: iut.unilim.fr:KataCarRacing:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\pom.xml.
+2017-12-11 11:06:22,515 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: iut.unilim.fr:KataCarRacing:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\pom.xml.
+2017-12-11 11:06:23,943 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:06:23,943 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:06:23,946 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:06:23,946 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:06:25,446 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: iut.unilim.fr:KataCarRacing:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\pom.xml.
+2017-12-11 11:06:26,193 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:06:26,193 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:06:26,195 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:06:26,195 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:14:28,857 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:14:28,858 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:14:28,860 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:14:28,860 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:15:32,227 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:15:32,228 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:15:32,229 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:15:32,229 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:16:11,734 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:16:11,749 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:16:11,766 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:16:11,767 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:16:34,386 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:16:34,386 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:16:34,388 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:16:34,388 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:19:23,337 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:19:23,343 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:19:23,349 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:19:23,349 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:22:28,747 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:22:28,747 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:22:28,748 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:22:28,748 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:22:31,015 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:22:31,025 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:22:31,039 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:22:31,039 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:23:17,671 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:17,671 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:23:17,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:17,673 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:23:46,250 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:46,257 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:23:46,266 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:46,267 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:23:48,400 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:48,400 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:23:48,401 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:23:48,401 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:24:23,555 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:24:23,560 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:24:23,566 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:24:23,566 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:25:04,800 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:25:04,800 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:25:04,802 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:25:04,802 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:29:18,356 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:29:18,362 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:29:18,370 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:29:18,370 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:33:39,647 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:33:39,648 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:33:39,652 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:33:39,652 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:34:24,465 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:24,481 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:34:24,501 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:24,501 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:34:34,705 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:34,705 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:34:34,708 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:34,708 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:34:42,450 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:42,456 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:34:42,465 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:34:42,465 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:35:15,230 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:35:15,230 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:35:15,231 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:35:15,231 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:35:31,152 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:35:31,165 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:35:31,176 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:35:31,176 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:36:00,424 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:36:00,425 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:36:00,427 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:36:00,427 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:36:45,485 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:36:45,499 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:36:45,514 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:36:45,514 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:37:17,590 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:37:17,591 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:37:17,593 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:37:17,593 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:41:33,283 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:41:33,289 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:41:33,296 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:41:33,296 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:56:43,604 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:56:43,605 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:56:43,606 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:56:43,606 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:58:31,882 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:58:31,895 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:58:31,910 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:58:31,911 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-11 11:58:35,160 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:58:35,160 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-11 11:58:35,161 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-11 11:58:35,161 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-19 15:40:04,380 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-12-19 15:40:42,403 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\pom.xml
+2017-12-19 15:40:45,768 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: unilim.fr:fizzbuzzbang:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\pom.xml.
+2017-12-19 15:40:46,536 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizzbuzzbang/src/main/java
+2017-12-19 15:40:46,545 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizzbuzzbang/src/test/java
+2017-12-19 15:40:46,619 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2017-12-19 15:40:47,166 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:40:47,166 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:40:47,169 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:40:47,170 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:45:58,705 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:45:58,705 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:45:58,707 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:45:58,708 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:46:19,523 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:19,523 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:46:19,534 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:19,534 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:46:22,662 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:22,662 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:46:22,672 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:22,678 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:46:46,502 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:46,502 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:46:46,509 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:46:46,515 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:47:06,840 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:47:06,840 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:47:06,849 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:47:06,855 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:47:55,454 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:47:55,454 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:47:55,459 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:47:55,463 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:48:04,196 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: iut.unilim.fr:KataCarRacing:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\pom.xml.
+2017-12-19 15:48:05,272 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:05,278 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\main\resources
+2017-12-19 15:48:05,287 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:05,292 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\src\test\resources
+2017-12-19 15:48:35,459 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: unilim.fr:fizzbuzzbang:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\pom.xml.
+2017-12-19 15:48:35,591 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:35,596 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:48:35,602 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:35,603 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:48:36,774 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:36,775 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:48:36,776 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:48:36,776 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources
+2017-12-19 15:49:15,155 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-19 15:49:15,563 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: unilim.fr:fizzbuzzbang:0.0.1-SNAPSHOT @ C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\pom.xml.
+2017-12-19 15:49:15,691 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizzbuzzbang/src/main/java
+2017-12-19 15:49:15,699 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fizzbuzzbang/src/test/java
+2017-12-19 15:49:15,808 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-19 15:49:15,995 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:49:16,003 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\main\resources
+2017-12-19 15:49:16,005 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-19 15:49:16,010 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\src\test\resources

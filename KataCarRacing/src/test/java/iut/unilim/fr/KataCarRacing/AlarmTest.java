@@ -6,58 +6,52 @@ import static org.mockito.Mockito.*;
 
 import org.junit.Test;
 
+import helpers.AlarmBuilder;
+
 public class AlarmTest {
-	
+
 	@Test
-	public void test_AlarmeSeDeclenche_ValeurTropBasse() {
-		Sensor sensor = capteurQuiSonde(15.0);
-		
-		Alarm alarm = new Alarm(sensor);
+	public void alarmeSeDeclenche_EnCasDeValeurTropBasse() {
+		Alarm alarm = new AlarmBuilder()
+				.usingSensor(thatProbes(0.0))
+				.withSafetyRange(17, 21)
+				.build();
 		alarm.check();
 		assertTrue(alarm.isAlarmOn());
-	}
-	
-	@Test
-	public void test_AlarmeSeDeclenche_ValeurTropHaute() {
-		Sensor sensor = capteurQuiSonde(25.0);
-		
-		Alarm alarm = new Alarm(sensor);
-		alarm.check();
-		assertTrue(alarm.isAlarmOn());
-	
-		
 	}
 
 	@Test
-	public void test_AlarmeNeSeDeclenchePas_ValeurDansLeSeuil() {
-		Sensor sensor = capteurQuiSonde(20.0);
-		
-		Alarm alarm = new Alarm(sensor);
-		alarm.check();
-		assertFalse(alarm.isAlarmOn());
-	
-	}
-	
-	@Test
-	public void test_qqch() {
-		Sensor sensor = capteurQuiSonde(30.0,20.0);
-		
-		Alarm alarm = new Alarm(sensor);
+	public void alarmeSeDeclenche_EnCasDeValeurTropForte() {
+		Alarm alarm = new AlarmBuilder()
+				.usingSensor(thatProbes(30.0))
+				.withSafetyRange(17, 21)
+				.build();
 		alarm.check();
 		assertTrue(alarm.isAlarmOn());
-		
-	
 	}
-	
-	private Sensor capteurQuiSonde(double value1, double value2) {
-		Sensor sensor = mock(PressureSensor.class);
-		when(sensor.popNextPressurePsiValue()).thenReturn(value1, value2);
-		return sensor;
+
+	@Test
+	public void alarmeNeSeDeclenchePas_SiValeurDansSeuilDeSecurite() {
+		Alarm alarm = new AlarmBuilder()
+				.usingSensor(thatProbes(20.0))
+				.withSafetyRange(17, 21)
+				.build();
+		alarm.check();
+		assertFalse(alarm.isAlarmOn());
 	}
-	
-	private Sensor capteurQuiSonde(double d) {
-		Sensor sensor = mock(PressureSensor.class);
-		when(sensor.popNextPressurePsiValue()).thenReturn(d);
-		return sensor;
+
+	@Test
+	public void uneFoisDeclenchee_alarmeResteDeclenchee_QuelleQueSoitLaValeur() {Alarm alarm = new AlarmBuilder()
+	.usingSensor(thatProbes(30.0, 20.0))
+	.withSafetyRange(17, 21)
+	.build();
+
+		alarm.check();
+		assertTrue(alarm.isAlarmOn());
+
+		alarm.check();
+		assertTrue(alarm.isAlarmOn());
 	}
+
+	
 }

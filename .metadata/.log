@@ -5987,3 +5987,755 @@ Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinite
 
 !ENTRY org.infinitest.eclipse 1 0 2017-12-07 11:37:21.180
 !MESSAGE Update complete. Status PASSING
+!SESSION 2017-12-11 10:59:06.519 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 4 2017-12-11 10:59:36.960
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2017-12-11 10:59:36.960
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:236)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:112)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:560)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1010)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1274)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:257)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2557)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2530)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1418)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2137)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:955)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:124)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:399)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:318)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:704)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1076)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2017-12-11 10:59:36.964
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-11 10:59:41.335
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Azalius'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-12-11 11:04:19.947 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 4 2017-12-11 11:04:30.066
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2017-12-11 11:04:30.067
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:236)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:112)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:560)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1010)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1274)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:257)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2557)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2530)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1418)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2137)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:955)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:124)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:399)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:318)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:546)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:530)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:137)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:69)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:704)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1076)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2017-12-11 11:04:30.069
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/fr/unilim/iut/kebab/ingredients/Ingredient.java'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-11 11:04:33.109
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Azalius'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2017-12-11 11:04:51.834
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2017-12-11 11:04:51.834
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/visitor/VisiteurRegimeVegetarien.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/kebab/src/main/java/visitor/VisiteurRegimeVegetarien.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:236)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:112)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:560)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1010)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1274)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:257)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2557)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2530)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1418)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:955)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:124)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:399)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:318)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1308)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1266)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$1(StackRenderer.java:1252)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$5.close(StackRenderer.java:1121)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1950)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:333)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2017-12-11 11:04:51.835
+!MESSAGE Cannot determine URI for '/kebab/src/main/java/visitor/VisiteurRegimeVegetarien.java'.
+!SESSION 2017-12-11 11:05:00.721 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-11 11:05:11.902
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Azalius'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:21.736
+!MESSAGE Filter file C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:21.798
+!MESSAGE Reloading core KataCarRacing
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:21.827
+!MESSAGE Added core KataCarRacing with classpath C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:21.853
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\PressureSensor.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Alarm.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Sensor.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:21.998
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:22.014
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 49594]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:06:23.073
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:15:32.247
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:16:11.805
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:24:23.583
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\PressureSensor.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\SafetyRange.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Alarm.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Sensor.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:24:23.597
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:24:23.605
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50092]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:24:24.210
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:25:04.816
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\PressureSensor.class]
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-12-11 11:28:46.137
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:211)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:29:18.387
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:33:39.684
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:34:24.525
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:34:42.480
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:34:42.490
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:34:42.500
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50357]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:34:43.065
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:15.243
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:15.251
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:15.258
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50370]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:16.011
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:31.195
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:31.206
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:31.215
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50383]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:35:31.869
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:00.461
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:00.479
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:00.494
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50397]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:01.060
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:45.544
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:45.564
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:45.576
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50418]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:36:46.326
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:37:17.627
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:37:17.650
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:37:17.673
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 50434]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:37:18.402
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:41:33.309
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\fakeProbeBuilder.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:43.621
+!MESSAGE Files removed. Reloading KataCarRacing
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:43.630
+!MESSAGE Reloading core KataCarRacing
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:43.645
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\AlarmBuilder.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\iut\unilim\fr\KataCarRacing\AlarmTest.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\PressureSensor.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\SafetyRange.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Alarm.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\sensorFactory.class, C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes\iut\unilim\fr\KataCarRacing\Sensor.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:43.663
+!MESSAGE KataCarRacing Running tests: [iut.unilim.fr.KataCarRacing.AlarmTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:43.682
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest2108845399.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 51036]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:56:44.548
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-11 11:58:31.937
+!MESSAGE KataCarRacing Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\KataCarRacing\target\test-classes\helpers\sensorFactory.class]
+!SESSION 2017-12-19 15:39:22.061 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-19 15:40:05.611
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Azalius'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.160
+!MESSAGE Filter file C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.193
+!MESSAGE Reloading core fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.205
+!MESSAGE Added core fizzbuzzbang with classpath C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest848534989.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.216
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes\unilim\fr\fizzbuzzbang\AppTest.class, C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\App.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.309
+!MESSAGE fizzbuzzbang Running tests: [unilim.fr.fizzbuzzbang.AppTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.320
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest848534989.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 65331]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:41:40.618
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:45:58.717
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:19.543
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.691
+!MESSAGE Files removed. Reloading fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.699
+!MESSAGE Reloading core fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.706
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes\unilim\fr\fizzbuzzbang\AppTest.class, C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.714
+!MESSAGE fizzbuzzbang Running tests: [unilim.fr.fizzbuzzbang.AppTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.720
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest848534989.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 49169]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:22.986
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:46.526
+!MESSAGE Files removed. Reloading fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:46.534
+!MESSAGE Reloading core fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:46:46.542
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:47:06.870
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes\unilim\fr\fizzbuzzbang\FizzBuzzTest.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:04.527
+!MESSAGE Reloading core fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:04.538
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes\unilim\fr\fizzbuzzbang\FizzBuzzTest.class, C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:04.563
+!MESSAGE fizzbuzzbang Running tests: [unilim.fr.fizzbuzzbang.FizzBuzzTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:04.573
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest848534989.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 49262]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:04.824
+!MESSAGE Update complete. Status PASSING
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:15.812
+!MESSAGE Files removed. Reloading fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:15.822
+!MESSAGE Reloading core fizzbuzzbang
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:16.016
+!MESSAGE fizzbuzzbang Files changed: [C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes\unilim\fr\fizzbuzzbang\FizzBuzzTest.class, C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes\unilim\fr\fizzbuzzbang\FizzBuzz.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:16.025
+!MESSAGE fizzbuzzbang Running tests: [unilim.fr.fizzbuzzbang.FizzBuzzTest]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:16.033
+!MESSAGE Launching test runner process with the following configuration:
+Directory: C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang
+Environment: {USERDOMAIN_ROAMINGPROFILE=DESKTOP-5TOD9NV, LOCALAPPDATA=C:\Users\Azalius\AppData\Local, MSMPI_BIN=C:\Program Files\Microsoft MPI\Bin\, PROCESSOR_LEVEL=6, VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\, USERDOMAIN=DESKTOP-5TOD9NV, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-5TOD9NV, SynaProgDir=Synaptics\SynTP, FSHARPINSTALLDIR=C:\Program Files (x86)\Microsoft SDKs\F#\4.1\Framework\v4.0\, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Azalius\OneDrive, APPDATA=C:\Users\Azalius\AppData\Roaming, USERNAME=Azalius, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\wamp64\bin\php\php5.6.31;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Azalius\AppData\Local\Programs\Python\Python36-32\;C:\Users\Azalius\AppData\Local\Microsoft\WindowsApps;C:\Users\Azalius\AppData\Local\atom\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Azalius\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Azalius\AppData\Roaming\Composer\vendor\bin;C:\Users\Azalius\AppData\Roaming\npm;C:\eclipse;, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=DESKTOP-5TOD9NV, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, CLASSPATH=C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\classes;C:\Users\Azalius\Documents\Cours\TpIb\fizzbuzzbang\target\test-classes;C:\Users\Azalius\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\Azalius\.m2\repository\org\mockito\mockito-core\2.10.0\mockito-core-2.10.0.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy\1.7.4\byte-buddy-1.7.4.jar;C:\Users\Azalius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.4\byte-buddy-agent-1.7.4.jar;C:\Users\Azalius\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:/Users/Azalius/AppData/Local/Temp/infinitest848534989.jar, ComSpec=C:\Windows\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Azalius, SystemRoot=C:\Windows, TEMP=C:\Users\Azalius\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\Azalius, TMP=C:\Users\Azalius\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\Windows, =::=::\}
+Command: [C:\Program Files\Java\jre1.8.0_151\bin\java.exe, -mx256m, org.infinitest.testrunner.TestRunnerProcess, org.infinitest.testrunner.JUnit4Runner, 49268]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-12-19 15:49:16.287
+!MESSAGE Update complete. Status PASSING

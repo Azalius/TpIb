@@ -1,7 +1,1 @@
 INDEX VERSION 1.130+C:\Users\Azalius\Documents\Cours\TpIb\.metadata\.plugins\org.eclipse.jdt.core
-3164433822.index
-3154590867.index
-2119339788.index
-2735263478.index
-2520777200.index
-438607571.index
