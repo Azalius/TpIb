@@ -1,31 +1,27 @@
 package unilim.fr.fizzbuzzbang;
 
+import java.util.ArrayList;
+
 public class FizzBuzz {
 
 	public String donnerLaReponsePour(Integer nombre) {
+		
+		ArrayList<Regle> alts = new ArrayList<Regle>();
+		String aRet = "";
+		
+		alts.add(new Fizz());
+		alts.add(new Buzz());
 
-		if (isFizzBuzz(nombre))
-			return "fizzbuzz";
-
-		if (isBuzz(nombre))
-			return "buzz";
-
-		if (isFizz(nombre))
-			return "fizz";
-
-		return String.valueOf(nombre);
-	}
-
-	private boolean isFizzBuzz(Integer nombre) {
-		return 0 == nombre % (3 * 5);
-	}
-
-	private boolean isBuzz(Integer nombre) {
-		return 0 == nombre % 5;
-	}
-
-	private boolean isFizz(Integer nombre) {
-		return 0 == nombre % 3;
+		for (Regle alt : alts) {
+			if (alt.isInterestedIn(nombre)) {
+				aRet += alt.getKeyWord();
+			}
+		}
+		
+		if ("".equals(aRet)) {
+			return String.valueOf(nombre);
+		}
+		return aRet;
 	}
 
 }
