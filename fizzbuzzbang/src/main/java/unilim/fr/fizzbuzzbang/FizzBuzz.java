@@ -6,15 +6,13 @@ public class FizzBuzz {
 
 	public String donnerLaReponsePour(Integer nombre) {
 		
-		ArrayList<Regle> alts = new ArrayList<Regle>();
+		ArrayList<Regle> regles = FizzBuzzRegleFactory.build();
 		String aRet = "";
 		
-		alts.add(new Fizz());
-		alts.add(new Buzz());
 
-		for (Regle alt : alts) {
-			if (alt.isInterestedIn(nombre)) {
-				aRet += alt.getKeyWord();
+		for (Regle regle : regles) {
+			if (regle.isInterestedIn(nombre)) {
+				aRet += regle.getKeyWord();
 			}
 		}
 		

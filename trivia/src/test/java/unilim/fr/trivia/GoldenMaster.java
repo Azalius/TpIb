@@ -17,6 +17,7 @@ public class GoldenMaster {
 		return consoleStream.toString();
 	}
 	public void generateGoldenMaster() throws IOException{
+<<<<<<< HEAD
 		for (long seed = 0 ; seed < 1000 ; seed++) {
 			FileUtils.writeStringToFile(new File("goldenMasterData/"+
 					seed+".txt"), getGameResults(seed), "UTF-8");
@@ -24,5 +25,12 @@ public class GoldenMaster {
 	}
 	public String getGoldenMaster(long seed) throws IOException{
 		return FileUtils.readFileToString(new File("goldenMasterData/"+seed+".txt"), "UTF-8");
+=======
+for (long seed = 0 ; seed < 1000 ; seed++) {
+	FileUtils.writeStringToFile(new File("goldenMasterData/"+
+			seed+".txt"), getGameResults(seed), "UTF-8");
+		}
+		
+>>>>>>> 258ac584aab12752473fc3b816873445bf210ca3
 	}
 }
